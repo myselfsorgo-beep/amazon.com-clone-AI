@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-nav">
+        <a href="index.html" class="logo">amazon</a>
+        <div class="nav-links">
+          <a href="index.html">Shop</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="checkout-page">
+      <section class="checkout-card">
+        <h1>Continue Shopping</h1>
+        <p>Confirm your delivery details to finish your order.</p>
+
+        <form class="checkout-form">
+          <label>
+            Full Name
+            <input type="text" placeholder="John Doe" required />
+          </label>
+
+          <label>
+            Email Address
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Phone Number
+            <input type="tel" placeholder="(555) 123-4567" required />
+          </label>
+
+          <label>
+            Delivery Address
+            <textarea rows="4" placeholder="123 Main Street, City, Country" required></textarea>
+          </label>
+
+          <button type="submit" class="cta">Place Order</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-nav">
+        <a href="index.html" class="logo">amazon</a>
+        <div class="nav-links">
+          <a href="index.html">Shop</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="cart-page">
+      <section class="cart-card">
+        <div class="cart-hero">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Shopping cart" />
+        </div>
+        <h1>Your Cart</h1>
+        <p>Your selected items will appear here.</p>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-summary">
+          <strong>Total: $0.00</strong>
+          <a href="checkout.html" class="cta">Continue Shopping</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
